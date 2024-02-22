@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217B71612B86EA77001F5CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71602B86EA77001F5CE5 /* AppDelegate.swift */; };
+		217B716A2B86EA77001F5CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217B71692B86EA77001F5CE5 /* Assets.xcassets */; };
+		217B716D2B86EA77001F5CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217B716B2B86EA77001F5CE5 /* LaunchScreen.storyboard */; };
+		217B71782B86EA78001F5CE5 /* socratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71772B86EA78001F5CE5 /* socratesTests.swift */; };
+		217B71822B86EA78001F5CE5 /* socratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71812B86EA78001F5CE5 /* socratesUITests.swift */; };
+		217B71842B86EA78001F5CE5 /* socratesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71832B86EA78001F5CE5 /* socratesUITestsLaunchTests.swift */; };
+		217B71972B86ECE9001F5CE5 /* XXTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71962B86ECE9001F5CE5 /* XXTabbarController.swift */; };
+		217B71992B86ED6C001F5CE5 /* XXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71982B86ED6C001F5CE5 /* XXNavigationController.swift */; };
+		217B719F2B86F056001F5CE5 /* XXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B719E2B86F056001F5CE5 /* XXHomeViewController.swift */; };
+		D92F972176C65E838553B791 /* libPods-socrates.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE3A4964D3003D8FF15C16A /* libPods-socrates.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217B71742B86EA78001F5CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217B71552B86EA77001F5CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217B715C2B86EA77001F5CE5;
+			remoteInfo = socrates;
+		};
+		217B717E2B86EA78001F5CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217B71552B86EA77001F5CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217B715C2B86EA77001F5CE5;
+			remoteInfo = socrates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0CB3B0E3B5DF32013E7463 /* Pods-socrates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socrates.release.xcconfig"; path = "Target Support Files/Pods-socrates/Pods-socrates.release.xcconfig"; sourceTree = "<group>"; };
+		217B715D2B86EA77001F5CE5 /* socrates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socrates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217B71602B86EA77001F5CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217B71692B86EA77001F5CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217B716C2B86EA77001F5CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217B716E2B86EA77001F5CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217B71732B86EA78001F5CE5 /* socratesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socratesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217B71772B86EA78001F5CE5 /* socratesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesTests.swift; sourceTree = "<group>"; };
+		217B717D2B86EA78001F5CE5 /* socratesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socratesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217B71812B86EA78001F5CE5 /* socratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesUITests.swift; sourceTree = "<group>"; };
+		217B71832B86EA78001F5CE5 /* socratesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socratesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		217B71962B86ECE9001F5CE5 /* XXTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXTabbarController.swift; sourceTree = "<group>"; };
+		217B71982B86ED6C001F5CE5 /* XXNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXNavigationController.swift; sourceTree = "<group>"; };
+		217B719E2B86F056001F5CE5 /* XXHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXHomeViewController.swift; sourceTree = "<group>"; };
+		A5C56E599A20EF9FF511408A /* Pods-socrates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socrates.debug.xcconfig"; path = "Target Support Files/Pods-socrates/Pods-socrates.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE3A4964D3003D8FF15C16A /* libPods-socrates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-socrates.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217B715A2B86EA77001F5CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92F972176C65E838553B791 /* libPods-socrates.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B71702B86EA78001F5CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B717A2B86EA78001F5CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415F36ED1549181E205A72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C56E599A20EF9FF511408A /* Pods-socrates.debug.xcconfig */,
+				1B0CB3B0E3B5DF32013E7463 /* Pods-socrates.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		217B71542B86EA77001F5CE5 = {
+			isa = PBXGroup;
+			children = (
+				217B715F2B86EA77001F5CE5 /* socrates */,
+				217B71762B86EA78001F5CE5 /* socratesTests */,
+				217B71802B86EA78001F5CE5 /* socratesUITests */,
+				217B715E2B86EA77001F5CE5 /* Products */,
+				0415F36ED1549181E205A72C /* Pods */,
+				C58EF3B939269B9A93343394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		217B715E2B86EA77001F5CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217B715D2B86EA77001F5CE5 /* socrates.app */,
+				217B71732B86EA78001F5CE5 /* socratesTests.xctest */,
+				217B717D2B86EA78001F5CE5 /* socratesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217B715F2B86EA77001F5CE5 /* socrates */ = {
+			isa = PBXGroup;
+			children = (
+				217B71902B86EC1B001F5CE5 /* Class */,
+				217B71602B86EA77001F5CE5 /* AppDelegate.swift */,
+				217B71692B86EA77001F5CE5 /* Assets.xcassets */,
+				217B716B2B86EA77001F5CE5 /* LaunchScreen.storyboard */,
+				217B716E2B86EA77001F5CE5 /* Info.plist */,
+			);
+			path = socrates;
+			sourceTree = "<group>";
+		};
+		217B71762B86EA78001F5CE5 /* socratesTests */ = {
+			isa = PBXGroup;
+			children = (
+				217B71772B86EA78001F5CE5 /* socratesTests.swift */,
+			);
+			path = socratesTests;
+			sourceTree = "<group>";
+		};
+		217B71802B86EA78001F5CE5 /* socratesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				217B71812B86EA78001F5CE5 /* socratesUITests.swift */,
+				217B71832B86EA78001F5CE5 /* socratesUITestsLaunchTests.swift */,
+			);
+			path = socratesUITests;
+			sourceTree = "<group>";
+		};
+		217B71902B86EC1B001F5CE5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				217B719A2B86F047001F5CE5 /* Home */,
+				217B71912B86EC1B001F5CE5 /* Database */,
+				217B71922B86EC1B001F5CE5 /* Networking */,
+				217B71932B86EC1B001F5CE5 /* BaseClass */,
+				217B71942B86EC1B001F5CE5 /* Main */,
+				217B71952B86EC1B001F5CE5 /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		217B71912B86EC1B001F5CE5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		217B71922B86EC1B001F5CE5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		217B71932B86EC1B001F5CE5 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		217B71942B86EC1B001F5CE5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				217B71962B86ECE9001F5CE5 /* XXTabbarController.swift */,
+				217B71982B86ED6C001F5CE5 /* XXNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		217B71952B86EC1B001F5CE5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		217B719A2B86F047001F5CE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				217B719B2B86F047001F5CE5 /* Controller */,
+				217B719C2B86F047001F5CE5 /* Model */,
+				217B719D2B86F047001F5CE5 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		217B719B2B86F047001F5CE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				217B719E2B86F056001F5CE5 /* XXHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		217B719C2B86F047001F5CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		217B719D2B86F047001F5CE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C58EF3B939269B9A93343394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDE3A4964D3003D8FF15C16A /* libPods-socrates.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217B715C2B86EA77001F5CE5 /* socrates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217B71872B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socrates" */;
+			buildPhases = (
+				97599D0163088C2AC52D1419 /* [CP] Check Pods Manifest.lock */,
+				217B71592B86EA77001F5CE5 /* Sources */,
+				217B715A2B86EA77001F5CE5 /* Frameworks */,
+				217B715B2B86EA77001F5CE5 /* Resources */,
+				C2A32802D66F6586BA993A67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = socrates;
+			productName = socrates;
+			productReference = 217B715D2B86EA77001F5CE5 /* socrates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217B71722B86EA78001F5CE5 /* socratesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217B718A2B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socratesTests" */;
+			buildPhases = (
+				217B716F2B86EA78001F5CE5 /* Sources */,
+				217B71702B86EA78001F5CE5 /* Frameworks */,
+				217B71712B86EA78001F5CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217B71752B86EA78001F5CE5 /* PBXTargetDependency */,
+			);
+			name = socratesTests;
+			productName = socratesTests;
+			productReference = 217B71732B86EA78001F5CE5 /* socratesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		217B717C2B86EA78001F5CE5 /* socratesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217B718D2B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socratesUITests" */;
+			buildPhases = (
+				217B71792B86EA78001F5CE5 /* Sources */,
+				217B717A2B86EA78001F5CE5 /* Frameworks */,
+				217B717B2B86EA78001F5CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217B717F2B86EA78001F5CE5 /* PBXTargetDependency */,
+			);
+			name = socratesUITests;
+			productName = socratesUITests;
+			productReference = 217B717D2B86EA78001F5CE5 /* socratesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217B71552B86EA77001F5CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = XX;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					217B715C2B86EA77001F5CE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					217B71722B86EA78001F5CE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 217B715C2B86EA77001F5CE5;
+					};
+					217B717C2B86EA78001F5CE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 217B715C2B86EA77001F5CE5;
+					};
+				};
+			};
+			buildConfigurationList = 217B71582B86EA77001F5CE5 /* Build configuration list for PBXProject "socrates" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217B71542B86EA77001F5CE5;
+			productRefGroup = 217B715E2B86EA77001F5CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217B715C2B86EA77001F5CE5 /* socrates */,
+				217B71722B86EA78001F5CE5 /* socratesTests */,
+				217B717C2B86EA78001F5CE5 /* socratesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217B715B2B86EA77001F5CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B716D2B86EA77001F5CE5 /* LaunchScreen.storyboard in Resources */,
+				217B716A2B86EA77001F5CE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B71712B86EA78001F5CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B717B2B86EA78001F5CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97599D0163088C2AC52D1419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-socrates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A32802D66F6586BA993A67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socrates/Pods-socrates-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socrates/Pods-socrates-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-socrates/Pods-socrates-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217B71592B86EA77001F5CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B71992B86ED6C001F5CE5 /* XXNavigationController.swift in Sources */,
+				217B719F2B86F056001F5CE5 /* XXHomeViewController.swift in Sources */,
+				217B71612B86EA77001F5CE5 /* AppDelegate.swift in Sources */,
+				217B71972B86ECE9001F5CE5 /* XXTabbarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B716F2B86EA78001F5CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B71782B86EA78001F5CE5 /* socratesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217B71792B86EA78001F5CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B71842B86EA78001F5CE5 /* socratesUITestsLaunchTests.swift in Sources */,
+				217B71822B86EA78001F5CE5 /* socratesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217B71752B86EA78001F5CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217B715C2B86EA77001F5CE5 /* socrates */;
+			targetProxy = 217B71742B86EA78001F5CE5 /* PBXContainerItemProxy */;
+		};
+		217B717F2B86EA78001F5CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217B715C2B86EA77001F5CE5 /* socrates */;
+			targetProxy = 217B717E2B86EA78001F5CE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217B716B2B86EA77001F5CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217B716C2B86EA77001F5CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217B71852B86EA78001F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		217B71862B86EA78001F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217B71882B86EA78001F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C56E599A20EF9FF511408A /* Pods-socrates.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = socrates/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		217B71892B86EA78001F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0CB3B0E3B5DF32013E7463 /* Pods-socrates.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = socrates/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		217B718B2B86EA78001F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz.socratesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socrates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/socrates";
+			};
+			name = Debug;
+		};
+		217B718C2B86EA78001F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz.socratesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socrates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/socrates";
+			};
+			name = Release;
+		};
+		217B718E2B86EA78001F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz.socratesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = socrates;
+			};
+			name = Debug;
+		};
+		217B718F2B86EA78001F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8V6AG7FCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socrates.xyz.socratesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = socrates;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217B71582B86EA77001F5CE5 /* Build configuration list for PBXProject "socrates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B71852B86EA78001F5CE5 /* Debug */,
+				217B71862B86EA78001F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217B71872B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socrates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B71882B86EA78001F5CE5 /* Debug */,
+				217B71892B86EA78001F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217B718A2B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socratesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B718B2B86EA78001F5CE5 /* Debug */,
+				217B718C2B86EA78001F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217B718D2B86EA78001F5CE5 /* Build configuration list for PBXNativeTarget "socratesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B718E2B86EA78001F5CE5 /* Debug */,
+				217B718F2B86EA78001F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217B71552B86EA77001F5CE5 /* Project object */;
+}

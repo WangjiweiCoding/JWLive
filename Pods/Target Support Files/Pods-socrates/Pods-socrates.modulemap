@@ -1,0 +1,6 @@
+module Pods_socrates {
+  umbrella header "Pods-socrates-umbrella.h"
+
+  export *
+  module * { export * }
+}

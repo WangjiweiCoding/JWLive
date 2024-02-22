@@ -1,9 +1,0 @@
-platform :ios, '8.0'
-target ‘video’ do
-
-
-pod 'PLPlayerKit', '~> 2.2.4'
-
-
-
-end
