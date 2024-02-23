@@ -52,7 +52,7 @@ jobs:
 
       - name: build archive
         run: |
-          xcodebuild -quiet -workspace socrates.xcworkspace -configuration Release  -scheme "socrates" -sdk iphoneos -destination generic/platform=iOS -archivePath $RUNNER_TEMP/socrates.xcarchive PROVISIONING_PROFILE=$MOBILEPROVISION_UUID clean archive
+          xcodebuild -quiet -workspace socrates.xcworkspace -configuration Release  -scheme "socrates" -sdk iphoneos -destination generic/platform=iOS -archivePath $RUNNER_TEMP/socrates.xcarchive PROVISIONING_PROFILE="$MOBILEPROVISION_UUID" clean archive
 
       - name: export ipa
         env:
