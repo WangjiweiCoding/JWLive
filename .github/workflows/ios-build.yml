@@ -2,7 +2,7 @@ name: iOS-DEV
 
 on:
   push:
-    branches:
+    tags:
       - master
 
 jobs:
@@ -51,7 +51,7 @@ jobs:
 
       - name: build archive
         run: |
-          xcodebuild -quiet -workspace socrates.xcodeproj/project.xcworkspace -configuration Release  -scheme "socrates" -sdk iphoneos -destination generic/platform=iOS -archivePath $RUNNER_TEMP/socrates.xcarchive PROVISIONING_PROFILE=d35c303e-65d6-42ec-97e4-46d353e5b303 clean archive
+          xcodebuild -quiet -workspace socrates.xcworkspace -configuration Release  -scheme "socrates" -sdk iphoneos -destination generic/platform=iOS -archivePath $RUNNER_TEMP/socrates.xcarchive PROVISIONING_PROFILE=d35c303e-65d6-42ec-97e4-46d353e5b303 clean archive
 
       - name: export ipa
         env:
